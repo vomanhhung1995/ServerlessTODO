@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "lib": [
       "es2017"
     ],
@@ -8,7 +9,8 @@
     "noUnusedParameters": true,
     "sourceMap": true,
     "target": "es2017",
-    "outDir": "lib"
+    "outDir": "lib",
+    "module": "CommonJS"
   },
   "exclude": [
     "node_modules"

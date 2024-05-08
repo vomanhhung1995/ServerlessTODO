@@ -6,6 +6,7 @@ frameworkVersion: '3.38.0'
 plugins:
   - serverless-iam-roles-per-function
   - serverless-plugin-tracing
+  - serverless-plugin-typescript
 
 provider:
   name: aws

@@ -2,11 +2,16 @@
   "name": "serverless-todo-app",
   "version": "1.0.0",
   "description": "Serverless TODO image app",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/http-errors": "^1.8.2",
     "aws-xray-sdk": "^2.5.0",
     "axios": "^0.18.1",
+    "crypto-js": "^4.2.0",
     "http-errors": "^1.8.1",
     "jsonwebtoken": "^8.5.1",
     "jwks-client": "^2.0.2",
@@ -19,12 +24,13 @@
   "devDependencies": {
     "@types/aws-lambda": "^8.10.137",
     "@types/jsonwebtoken": "^8.5.9",
-    "@types/node": "^10.17.60",
+    "@types/node": "^20.12.11",
     "aws-sdk": "^2.1613.0",
     "serverless-aws-documentation": "^1.1.0",
     "serverless-iam-roles-per-function": "^3.2.0",
     "serverless-plugin-canary-deployments": "^0.4.8",
     "serverless-plugin-tracing": "^2.0.0",
+    "serverless-plugin-typescript": "^2.1.5",
     "serverless-reqvalidator-plugin": "^1.0.4",
     "serverless-webpack": "^5.13.0",
     "ts-loader": "^5.4.5",
